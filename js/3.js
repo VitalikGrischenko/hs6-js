@@ -6,11 +6,11 @@ const x2 = 30;
 const number = 45;
 
 if (number < x1) {
-  console.log('Число знаходиться перед x1');
-} else if (number > x2) {
-  console.log('Число знаходиться після x2');
-} else if (number <= x2) {
-  console.log('Число знаходиться від x1 до x2');
-} else {
-  console.log('Число знаходиться до x1 або після x2');
+  console.log("Your numder bigger");
+} else if (number > x1) {
+  console.log("Your number smaller ");
+} else if (number < x2) {
+  console.log("Your numder bigger");
+} else if(number > x2) {
+  console.log("Your number smaller");
 }
